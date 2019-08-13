@@ -20,6 +20,17 @@ html {
 
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+
+}
+
 
 /*--------------------------------*/
 /* REUSEABLE COMPONENTS */
@@ -49,6 +60,7 @@ section {
 
 header {
 
+	background-attachment: fixed;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
 	background-size: cover;
 	background-position: center;
@@ -124,8 +136,7 @@ header {
 /*--------------------------------*/
 
 .section-meals {
-
-	padding-top: 0;
+	padding: 0;
 
 }
 
@@ -167,6 +178,173 @@ header {
 
 	opacity: 1;
 	transform: scale(1.05);
+
+}
+
+/*--------------------------------*/
+/* HOW IT WORKS */
+/*--------------------------------*/
+
+.section-steps {
+
+	background-color: #f4f4f4;
+
+}
+
+.steps-box:first-child {
+
+	margin-top: 30px;
+	padding-right: 3%;
+	text-align: right;
+
+}
+
+.steps-box:last-child {
+
+	margin-top: 70px;
+	padding-left: 3%;
+
+}
+
+.app-screen {
+
+	width: 40%;
+
+}
+
+.works-step {
+
+	margin-bottom: 50px;
+
+}
+
+.works-step:last-of-type {
+
+	margin-bottom: 80px;
+
+}
+
+.works-step div {
+
+	border: 2px solid #cf6d17;
+	border-radius: 50%;
+	color: #cf6d17;
+	display: inline-block;
+	float: left;
+	font-size: 150%;
+	height: 55px;
+	margin-right: 25px;
+	padding: 5px;
+	text-align: center;
+	width: 55px;
+
+}
+
+.btn-app:link,
+.btn-app:visited {
+
+	border: 0;
+
+}
+
+.btn-app img {
+
+	height: 50px;
+	margin-right: 10px;
+	width: auto;
+
+}
+
+/*--------------------------------*/
+/* CITIES */
+/*--------------------------------*/
+
+	.box img {
+
+		height: auto;
+		margin-bottom: 15px;
+		width: 100%;
+
+	}
+
+	.city-feature {
+
+		margin-bottom: 5px;
+
+	}
+
+	.icon-small {
+
+		color: #e67e22;
+		display: inline-block;
+		line-height: 20%;
+		margin-right: 10px;
+		margin-top: -4px;
+		text-align: center;
+		vertical-align: middle;
+		width: 30px;
+
+	}
+
+/*--------------------------------*/
+/* TESTIMONIALS */
+/*--------------------------------*/
+
+	.section-testimonials {
+
+		background-attachment: fixed;
+		background-image: linear-gradient(rgba(0,0,0,0.8), #000), url(img/back-customers.jpg);
+		background-size: cover;
+		color: #fff;
+
+	}
+
+	blockquote {
+
+		font-style: italic;
+		line-height: 145%;
+		margin-top: 40px;
+		position: relative;
+
+	}
+
+	cite {
+
+		display: block;
+		font-size: 20px;
+		margin-top: 25px;
+
+	}
+
+	cite img {
+
+		border-radius: 50%;
+		height: 45px;
+		margin-right: 10px;
+		vertical-align: middle;
+
+	}
+
+/*--------------------------------*/
+/* LINKS */
+/*--------------------------------*/
+
+a:link,
+a:visited {
+
+	border-bottom: 1px solid #e67e22;
+	color: #e67e22;
+	padding-bottom: 1px;
+	text-decoration: none;
+	transition: border-bottom 0.2s, color;
+
+}
+
+a:hover,
+a:active {
+
+	border-bottom: transparent;
+	color: #555;
 
 }
 
@@ -276,7 +454,7 @@ h2:after {
 }
 
 .btn-full:link,
-.btn-fill:visited {
+.btn-full:visited {
 
 	background-color: #e67e22;
 	border: 1px solid #e67e22;
