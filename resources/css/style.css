@@ -326,6 +326,82 @@ header {
 	}
 
 /*--------------------------------*/
+/* SIGN UP */
+/*--------------------------------*/
+
+	.section-plans {
+
+		background-color: #f4f4f4;
+
+	}
+
+	.plan-box {
+
+		background-color: #fff;
+		border-radius: 5px;
+		margin-left: 5%;
+		width: 90%;
+
+	}
+
+	.plan-box div {
+
+		border-bottom: 1px solid #e8e8e8;
+		box-shadow: 0 2px 2px #efefef;
+		padding: 15px;
+
+	}
+
+	.plan-box div:first-child {
+
+		background-color: #fcfcfc;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+
+	}
+
+	.plan-box div:last-child {
+
+		border: 0;
+		text-align: center;
+
+	}
+
+	.plan-price {
+
+		color: #e67e22;
+		font-size: 300%;
+		font-weight: 300;
+		margin-bottom: 10px;
+
+	}
+
+	.plan-price span {
+
+		font-size: 30%;
+		font-weight: 300;	
+
+	}
+
+	.plan-price-meal {
+
+		font-size: 80%;
+
+	}
+
+	.plan-box ul {
+
+		list-style: none;
+
+	}
+
+	.plan-box ul li {
+
+		padding: 5px 0;
+
+	}
+
+/*--------------------------------*/
 /* LINKS */
 /*--------------------------------*/
 
