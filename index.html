@@ -7,6 +7,7 @@
 
 		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/animate.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
@@ -21,37 +22,39 @@
 			
 			<nav>
 				
-				<div class="row">
-					
-					<img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
-					<img src="resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
+                <div class="row">
 
-						<ul class="main-nav">
+                    <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
 
-								<li><a href="#">Food delivery</a></li>
-								<li><a href="#">How it works</a></li>
-								<li><a href="#">Our cities</a></li>
-								<li><a href="#">Sign up</a></li>
+                    <ul class="main-nav js--main-nav">
 
-						</ul>
+                        <li><a href="#features">Food delivery</a></li>
+                        <li><a href="#works">How it works</a></li>
+                        <li><a href="#cities">Our cities</a></li>
+                        <li><a href="#plans">Sign up</a></li>
 
-				</div>
+                    </ul>
+
+                        <a class="mobile-nav-icon js--mobile-nav-icon"><ion-icon name="menu"></ion-icon></a>
+
+                </div>
 
 			</nav>
 
 			<div class="hero-text-box">
 				
 				<h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
-				<a class="btn btn-full" href="#">I’m hungry</a>
-				<a class="btn btn-ghost" href="#">Show me more</a>
+				<a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+				<a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
 
 			</div>
 
 		</header>
 
-		<section class="section-features js--section-features">
+		<section class="section-features js--section-features" id="features">
 			
-			<div class="row">
+			<div>
 
 				<h2>Get food fast &mdash; not fast food.</h2>
 				<p class="long-copy">		
@@ -60,7 +63,7 @@
 
 			</div>
 
-			<div class="row">
+			<div class="row js--wp-1">
 				
 				<div class="col span-1-of-4 box">
 
@@ -194,7 +197,7 @@
 
 		</section>
 
-		<section class="section-steps">
+		<section class="section-steps" id="works">
 			
 			<div class="row">
 				
@@ -204,7 +207,7 @@
 					
 					<div class="col span-1-of-2 steps-box">
 						
-						<img src="resources/img/app-iphone.png" alt="Omnifood app on iPhone" class="app-screen">
+						<img src="resources/img/app-iphone.png" alt="Omnifood app on iPhone" class="app-screen js--wp-2">
 
 					</div>
 					<div class="col span-1-of-2 steps-box">
@@ -241,7 +244,7 @@
 
 		</section>
 
-		<section class="section-cities">
+		<section class="section-cities" id="cities">
 			
 			<div class="row">
 				
@@ -249,7 +252,7 @@
 
 			</div>
 
-			<div class="row">
+			<div class="row js--wp-3">
 				
 				<div class="col span-1-of-4 box">
 
@@ -378,6 +381,7 @@
 					</div>
 
 				</div>
+            </div>
 
 		</section>
 
@@ -429,7 +433,7 @@
 
 		</section>
 
-		<section class="section-plans">	
+		<section class="section-plans js--section-plans" id="plans">	
 
 			<h2>Start eating healthy today</h2>
 
@@ -437,7 +441,7 @@
 				
 				<div class="col span-1-of-3">
 					
-					<div class="plan-box">
+					<div class="plan-box js--wp-4">
 						
 						<div>
 							
@@ -677,11 +681,11 @@
 					
 					<ul class="footer-nav">
 						
-						<li><a href="#">About us</li>
-						<li><a href="#">Blog</li>
-						<li><a href="#">Press</li>
-						<li><a href="#">iOS App</li>
-						<li><a href="#">Android App</li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">iOS App</a></li>
+						<li><a href="#">Android App</a></li>
 
 					</ul>
 
@@ -691,10 +695,10 @@
 					
 					<ul class="social-icons">
 						
-						<li><a href="#"><ion-icon name="logo-facebook" class="fb-icon"></ion-icon></li>
-						<li><a href="#"><ion-icon name="logo-twitter" class="twitter-icon"></ion-icon></li>
-						<li><a href="#"><ion-icon name="logo-googleplus" class="google-plus-icon"></ion-icon></li>
-						<li><a href="#"><ion-icon name="logo-instagram" class="instagram-icon"></ion-icon></li>
+						<li><a href="#"><ion-icon name="logo-facebook" class="fb-icon"></ion-icon></a></li>
+						<li><a href="#"><ion-icon name="logo-twitter" class="twitter-icon"></ion-icon></a></li>
+						<li><a href="#"><ion-icon name="logo-googleplus" class="google-plus-icon"></ion-icon></a></li>
+						<li><a href="#"><ion-icon name="logo-instagram" class="instagram-icon"></ion-icon></a></li>
 
 					</ul>
 

@@ -11,15 +11,14 @@
 
 html,
 body {
-
-	background-color: #fff;
-	color: #555;
-	font-family: 'Lato', 'Arial', sans-serif;
-	font-weight: 300;
-	font-size: 20px;
-	overflow-x: hidden;
-	text-rendering: optimizeLegibility;
-
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
 }
 
 .clearfix {zoom: 1}
@@ -132,6 +131,24 @@ header {
 	border-bottom: 2px solid #e67e22;
 
 }
+
+/*--------------------------------*/
+/* MOBILE NAVI */
+/*--------------------------------*/
+
+    .mobile-nav-icon {
+        
+        cursor: pointer;
+        display: none;
+        float: right;
+        margin-top: 30px;
+
+    }
+
+    .mobile-nav-icon ion-icon {
+        color: #fff;
+        font-size: 200%;
+    }
 
 /*--------------------------------*/
 /* STICKY NAV */
@@ -605,6 +622,27 @@ header {
 		text-align: center;
 
 	}
+
+
+/*--------------------------------*/
+/* FOOTER */
+/*--------------------------------*/
+
+    .js--wp-1,
+    .js--wp-2,
+    .js--wp-3,
+    .js--wp-4 {
+
+        animation-duration: 0;
+        opacity: 0;
+    }
+
+    .js--wp-1.animated,
+    .js--wp-2.animated,
+    .js--wp-3.animated,
+    .js--wp-4.animated {
+        opacity: 1;
+    }
 
 
 /*--------------------------------*/
