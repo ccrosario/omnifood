@@ -56,21 +56,24 @@ $(document).ready(function () {
     /*------------------Mobile on Nav--------------------*/
 
     $('.js--mobile-nav-icon').click(function () {
+                
+        var closeIcon = $('.js--close-icon');
+        var menuIcon = $('.js--menu-icon');
 
         var nav = $('.js--main-nav');
-        var icon = $('.js--mobile-nav-icon ion-icon');
-
         nav.slideToggle(200);
 
-        if (icon.has('[name="menu"]')) {
+        if (closeIcon.hasClass("nav-icon-invisible")) {
 
-            icon.replaceWith("<ion-icon name=\"close\"></ion-icon>");
+            closeIcon.removeClass("nav-icon-invisible");
+            menuIcon.addClass("nav-icon-invisible");
 
-        } else if (icon.has('[name="close"]')) {
+        } else {
 
-            icon.replaceWith("<ion-icon name=\"menu\"></ion-icon>");
+            closeIcon.addClass("nav-icon-invisible");
+            menuIcon.removeClass("nav-icon-invisible");
 
-        };
+        }
 
     });
 

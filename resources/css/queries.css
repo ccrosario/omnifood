@@ -131,11 +131,17 @@
 
 	}
 
-	.mobile-nav-icon {
+	.mobile-nav-icon{
 
 		display: inline-block;
 
 	}
+
+    .nav-icon-invisible {
+
+        display: none;
+
+    }
 
     .main-nav {
 
