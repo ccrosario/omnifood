@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\resources",
-    "\\resources\\css",
-    "\\resources\\js",
-    "\\vendors"
+    ""
   ],
-  "SelectedNode": "\\resources\\js\\script.js",
+  "SelectedNode": "\\vendors",
   "PreviewInSolutionExplorer": false
 }
